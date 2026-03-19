@@ -7,9 +7,10 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "filament/filament": "^3.2",
-        "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "filament/filament": "^3.3",
+        "laravel/framework": "^11.0",
+        "laravel/tinker": "^2.10.1",
+        "nesbot/carbon": "^2.72"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -83,6 +84,9 @@
             "php-http/discovery": true
         }
     },
+    "conflict": {
+        "symfony/symfony": ">=8.0"
+},
     "minimum-stability": "stable",
     "prefer-stable": true
 }
